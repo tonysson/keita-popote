@@ -1,8 +1,8 @@
 import React from 'react';
-import accra from '../../images_png/0A-ACCRA-2.png';
-import chili from '../../images_png/chili.png';
-import pouletAnanas from '../../images_png/3.png';
-import colombo from '../../images_png/6.png';
+import accra from '../../images/0A-ACCRA.jpg';
+import chili from '../../images/chili.jpg';
+import pouletAnanas from '../../images/0A-POULET-ANANAS-2.jpg';
+import colombo from '../../images/0A-POULET-COLOMBO-2.jpg';
 import { Section } from './WorldMenuStyles';
 
 export default function WorldMenus() {

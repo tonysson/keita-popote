@@ -1,9 +1,9 @@
 import React from 'react';
-import mafe from '../../images_png/2.png';
-import thiebPoisson from '../../images_png/7.png';
-import thiebPoulet from '../../images_png/9.png';
-import yassa from '../../images_png/10.png';
-import atieke from '../../images_png/atieke.png';
+import mafe from '../../images/0A-MAFE-2.jpg';
+import thiebPoisson from '../../images/0A-THEIB-POISSON-2.jpg';
+import thiebPoulet from '../../images/0A-THIEB.jpg';
+import yassa from '../../images/0A-YASA-2.jpg';
+import atieke from '../../images/atieke.jpg';
 import { Section } from './AfrcaMenuStyles';
 
 export default function AfricaMenus() {

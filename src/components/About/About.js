@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import hero from '../../images_png/7.png';
+import hero from '../../images/0A-THEIB-POISSON-2.jpg';
 import { titleAnim, photoAnim } from '../../Animations/Animation';
 import { Hide } from './AboutStyles';
 

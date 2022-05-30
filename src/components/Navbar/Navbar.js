@@ -10,7 +10,7 @@ import {
 	NavLinks,
 } from './NavStyles';
 import { FaBars } from 'react-icons/fa';
-import logo from '../../images_png/KEITA POPOTE2.png';
+import logo from '../../images/KEITA POPOTE2.png';
 import { scroller } from 'react-scroll';
 
 const Navbar = () => {

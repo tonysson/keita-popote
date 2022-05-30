@@ -1,8 +1,8 @@
 import React from 'react';
 import PhoneIcon from '@material-ui/icons/Phone';
-import Services1 from '../../images_png/Services1.png';
-import Services2 from '../../images_png/Services2.png';
-import logo from '../../images_png/service3.png';
+import Services1 from '../../images/Services1.png';
+import Services2 from '../../images/Services2.png';
+import logo from '../../images/service3.png';
 import { Section } from './ServicesStyles';
 
 
