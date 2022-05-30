@@ -6,6 +6,7 @@ import yassa from '../../images/0A-YASA-2.jpg';
 import atieke from '../../images/atieke.jpg';
 import { Section } from './AfrcaMenuStyles';
 
+
 export default function AfricaMenus() {
 	const data = [
 		{
@@ -48,6 +49,8 @@ export default function AfricaMenus() {
 			description: 'Semoule de manioc , alloco et légumes sautés',
 		},
 	];
+
+
 	return (
 		<Section>
 			<div className='title'>
@@ -60,7 +63,7 @@ export default function AfricaMenus() {
 					return (
 						<div className='product' key={product.name}>
 							<div className='image'>
-								<img  src={product.image} alt='product'  />
+								<img src={product.image} alt='product' />
 							</div>
 							<h2>{product.name}</h2>
 							<h3>{product.price}</h3>
@@ -72,4 +75,3 @@ export default function AfricaMenus() {
 		</Section>
 	);
 }
-
