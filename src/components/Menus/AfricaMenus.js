@@ -13,14 +13,14 @@ export default function AfricaMenus() {
 			image: mafe,
 			name: 'Mafé',
 			price: '9 €',
-			description: 'Poulet , sauce arachide , carottes , courgettes',
+			description: 'Poulet, sauce arachide, carottes, courgettes',
 		},
 		{
 			image: thiebPoisson,
 			name: 'Thieb Poisson',
 			price: '12 €',
 			description:
-				'Riz cassé deux fois , cuit dans le jus des légumes , carottes , courgettes , aubergines et choux',
+				'Riz cassé deux fois, cuit dans le jus des légumes, carottes, courgettes, aubergines et choux',
 		},
 		{
 			image: thiebPoulet,
