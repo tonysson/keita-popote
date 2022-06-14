@@ -7,15 +7,15 @@ export default function Drinks() {
 	const data = [
 		{
 			image: jusGimgembre,
-			name: 'Jus de Gimgembre',
-			description: 'Gimgembre , citron , sucre et menthe',
+			name: 'Jus de Gingembre',
+			description: 'Gingembre, citron, sucre et menthe',
 			price: '2 €',
 		},
 
 		{
 			image: jusBissap,
 			name: 'Jus de Bissap',
-			description: 'Hibiscus , citron , sucre et menthe',
+			description: 'Hibiscus, citron, sucre et menthe',
 			price: '2 €',
 		},
 	];

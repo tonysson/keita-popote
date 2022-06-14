@@ -5,35 +5,35 @@ import Services2 from '../../images/Services2.png';
 import logo from '../../images/service3.png';
 import { Section } from './ServicesStyles';
 
-
 export default function Services() {
 	return (
 		<Section id='services'>
 			<div className='title'>
 				<h1>
-					Cuisine <span> familiale</span> et de <span> qualité</span>
+					Une cuisine <span> familiale, généreuse</span> et de{' '}
+					<span> qualité</span>
 				</h1>
 			</div>
 			<div className='services'>
 				<div className='service'>
-					<img
-						src={logo}
-						alt='service'
-					/>
+					<img src={logo} alt='service' />
 					<p>
 						Keita Popote traiteur africain propose des plats à emporter.
 						<br />
 						Tous les vendredis et samedis de 18h à 20h.
 						<br />
-						Possibilité de commander en nombres pour des évenements
-						particuliers.
+						<span
+							style={{ fontWeight: 'bold'}}
+						>
+							Possibilité de commander en grand nombre pour vos événements
+							familiaux, associatifs.
+						</span>
 					</p>
 				</div>
 				<div className='service'>
 					<img src={Services2} alt='service' />
 					<p>
-						Passez votre commande soit par SMS, soit en appelant les mercredis,
-						jeudis et vendredis au
+						Passez votre commande au
 					</p>
 					<div className='phone'>
 						<PhoneIcon />

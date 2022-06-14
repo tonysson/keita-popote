@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import hero from '../../images/0A-THEIB-POISSON-2.jpg';
+import hero from '../../images/theb_poisson2.jpg';
 import { titleAnim, photoAnim } from '../../Animations/Animation';
 import { Hide } from './AboutStyles';
 
@@ -16,7 +16,7 @@ function About() {
 					<Hide>
 						<motion.h2 variants={titleAnim}>Keita Popote</motion.h2>
 					</Hide>
-					<motion.em variants={photoAnim}>L'éxotisme dans votre assiètte</motion.em>
+					<motion.em variants={photoAnim}>L'exotisme dans votre assiette</motion.em>
 				</div>
 			</div>
 		</Section>

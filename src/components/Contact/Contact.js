@@ -51,7 +51,7 @@ const Contact = () => {
 									</div>
 								</div>
 								<div className='about__me'>
-									<h2>Notre histoire</h2>
+									<h2>Mon histoire</h2>
 									<p>
 										Diélika Keita cultive une vraie passion pour l’art culinaire
 										depuis sa plus tendre enfance. Inspirée par la cuisine

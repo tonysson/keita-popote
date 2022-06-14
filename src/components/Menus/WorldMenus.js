@@ -1,8 +1,8 @@
 import React from 'react';
-import accra from '../../images/0A-ACCRA.jpg';
+import accra from '../../images/accra1.jpg';
 import chili from '../../images/chili.jpg';
-import pouletAnanas from '../../images/0A-POULET-ANANAS-2.jpg';
-import colombo from '../../images/0A-POULET-COLOMBO-2.jpg';
+import pouletAnanas from '../../images/poulet_ananas3.jpg';
+import colombo from '../../images/colombo1.jpg';
 import { Section } from './WorldMenuStyles';
 
 export default function WorldMenus() {
@@ -10,29 +10,29 @@ export default function WorldMenus() {
 		{
 			image: accra,
 			name: 'Accras de morue',
-			price: '4 €',
-			description: '5 pièces , Beignets frits à la morue , herbes , épices',
+			price: '5 pièces 4 €',
+			description: 'Beignets frits à la morue, herbes, épices',
 		},
 		{
 			image: chili,
 			name: 'Chili Con Carne',
 			price: '9 €',
-			description: 'Viande hachée , haricots rouge , poivrons , maïs et épices',
+			description: 'Viande hachée, haricots rouges, poivrons, maïs et épices',
 		},
 		{
 			image: colombo,
 			name: 'Colombo',
 			price: '9 €',
 			description:
-				'Poulet , épices , anis étoilé , courgettes , aubergines et lait de coco',
+				'Poulet, épices, anis étoilé, courgettes, aubergines et lait de coco',
 		},
 		{
 			image: pouletAnanas,
 			name: 'Poulet Ananas',
 			price: '9 €',
 			description:
-				'Poulet , ananas , curry , lait de coco , poivrons et citrons',
-		}
+				'Poulet, ananas, curry, lait de coco, poivrons et citrons',
+		},
 	];
 	return (
 		<Section>
