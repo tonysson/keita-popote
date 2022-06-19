@@ -5,16 +5,9 @@ import thiebPoulet from '../../images/thieb_poulet1.jpg';
 import yassa from '../../images/yassa3.jpg';
 import atieke from '../../images/atieke.jpg';
 import { Section } from './AfrcaMenuStyles';
-import mateo from '../../images/0A-ALLOCO.jpg';
 
 export default function AfricaMenus() {
 	const data = [
-		{
-			image: mateo,
-			name: 'Mateo',
-			price: '12 €',
-			description: 'Mateo',
-		},
 		{
 			image: mafe,
 			name: 'Mafé',
