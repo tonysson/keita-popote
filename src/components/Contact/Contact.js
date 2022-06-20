@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 import React from 'react';
 import { DataConsumer } from '../../Context/Context';
 import {
@@ -6,13 +7,13 @@ import {
 	ContactItems,
 	ContactCopyright,
 } from './ContactStyles';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
 import PhoneIcon from '@material-ui/icons/Phone';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import { Link } from 'react-scroll';
 import { scroller } from 'react-scroll';
+import { AddressMap } from '../Map/Map';
 
 const Contact = () => {
 	//Automatic scroll to an element
@@ -40,12 +41,9 @@ const Contact = () => {
 								<div className='contact_me'>
 									<h2>Coordonnées</h2>
 									<div className='place'>
-										<LocationOnIcon />
-										<span className='text'>
-											5 rue de jouvence, 78700 Conflans St Honorine
-										</span>
+										<AddressMap/>
 									</div>
-									<div className='phone'>
+									<div className='phone' style={{marginTop : 40}}>
 										<PhoneIcon />
 										<a href='tel: +337 64 46 32 76'>07 64 46 32 76</a>
 									</div>

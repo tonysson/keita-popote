@@ -90,14 +90,14 @@ export const ContactItems = styled.div`
 		}
 	}
 
-	.place,
+	
 	.phone,
 	.mail {
 		display: flex;
 		align-items: center;
-		/* justify-content: center; */
 		margin-bottom: 10px;
 	}
+
 
 	.contact_me .MuiSvgIcon-root {
 		height: 30px;
@@ -138,7 +138,7 @@ export const ContactItems = styled.div`
 		color: #f7f7f7;
 		font-family: 'Made gentle', 'Trebuchet MS', 'sans-serif';
 		@media screen and (max-width: 467px) {
-			font-size: 14px;
+			font-size: 18px;
 			letter-spacing: 0.8px;
 		}
 	}
