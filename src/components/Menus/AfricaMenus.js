@@ -3,7 +3,8 @@ import mafe from '../../images/0A-MAFE-2.jpg';
 import thiebPoisson from '../../images/theb_poisson2.jpg';
 import thiebPoulet from '../../images/thieb_poulet1.jpg';
 import yassa from '../../images/yassa3.jpg';
-import atieke from '../../images/atieke.jpg';
+import atieke_poulet from '../../images/atieke.jpg';
+import atieke_poisson from '../../images/attièké_poisson.jpg'
 import { Section } from './AfrcaMenuStyles';
 
 export default function AfricaMenus() {
@@ -36,13 +37,13 @@ export default function AfricaMenus() {
 				'Poulet mariné, citrons, oignons, carottes, poivrons, moutarde',
 		},
 		{
-			image: atieke,
+			image: atieke_poisson,
 			name: 'Attiéké Poisson',
 			price: '10 €',
 			description: 'Semoule de manioc, alloco et légumes sautés',
 		},
 		{
-			image: atieke,
+			image: atieke_poulet,
 			name: 'Attiéké Poulet',
 			price: '9 €',
 			description: 'Semoule de manioc, alloco et légumes sautés',

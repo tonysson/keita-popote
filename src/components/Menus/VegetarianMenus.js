@@ -1,8 +1,8 @@
 import React from 'react';
 import dal from '../../images/dal.jpg';
-import mafe from '../../images/0A-MAFE-2.jpg';
-import thiebPoisson from '../../images/theb_poisson2.jpg';
-import yassa from '../../images/yassa3.jpg';
+import mafe from '../../images/mafé_veg.jpg';
+import thiebPoisson from '../../images/thieb_veg.jpg';
+import yassa from '../../images/yassa_veg.jpg';
 import { Section } from './WorldMenuStyles';
 
 export default function VegetarianMenus() {
