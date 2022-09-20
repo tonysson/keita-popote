@@ -12,7 +12,7 @@ export default function AfricaMenus() {
 		{
 			image: mafe,
 			name: 'Mafé',
-			price: '9 €',
+			price: '10 €',
 			description: 'Poulet, sauce arachide, carottes, courgettes',
 		},
 		{
@@ -25,14 +25,14 @@ export default function AfricaMenus() {
 		{
 			image: thiebPoulet,
 			name: 'Thieb Poulet',
-			price: '9 €',
+			price: '10 €',
 			description:
 				'Riz cassé deux fois, cuit dans le jus des légumes, carottes, courgettes, aubergines et choux',
 		},
 		{
 			image: yassa,
 			name: 'Poulet Yassa',
-			price: '9 €',
+			price: '10 €',
 			description:
 				'Poulet mariné, citrons, oignons, carottes, poivrons, moutarde',
 		},
@@ -45,9 +45,10 @@ export default function AfricaMenus() {
 		{
 			image: atieke_poulet,
 			name: 'Attiéké Poulet',
-			price: '9 €',
+			price: '10 €',
 			description: 'Semoule de manioc, alloco et légumes sautés',
 		},
+		
 	];
 
 	return (
