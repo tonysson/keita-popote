@@ -3,18 +3,55 @@ import mafe from '../../images/0A-MAFE-2.jpg';
 import thiebPoisson from '../../images/theb_poisson2.jpg';
 import thiebPoulet from '../../images/thieb_poulet1.jpg';
 import yassa from '../../images/yassa3.jpg';
-import atieke_poulet from '../../images/atieke.jpg';
-import atieke_poisson from '../../images/attièké_poisson.jpg'
+import accra from '../../images/accra1.jpg';
+import mafeveg from '../../images/mafé_veg.jpg';
+import thiebveg from '../../images/thieb_veg.jpg';
+import yasaveg from '../../images/yassa_veg.jpg';
+import jusGimgembre from '../../images/0A-GIMGEMBRE-2.jpg';
+import jusBissap from '../../images/0A-BISSAP-2.jpg';
+
 import { Section } from './AfrcaMenuStyles';
 
 export default function AfricaMenus() {
 	const data = [
 		{
-			image: mafe,
-			name: 'Mafé',
-			price: '10 €',
-			description: 'Poulet, sauce arachide, carottes, courgettes',
+			image: accra,
+			name: 'Accras de morue',
+			price: '6 pièces 5 €',
+			description: 'Beignets de morue, herbes, épices',
 		},
+		{
+			image: jusGimgembre,
+			name: 'Jus de Gingembre',
+			description: 'Gingembres, citrons, sucres et menthes',
+			price: '2,50 €',
+		},
+
+		{
+			image: jusBissap,
+			name: 'Jus de Bissap',
+			description: 'Hibiscus, citrons, sucres et menthes',
+			price: '2,50 €',
+		},
+		{
+			image: mafe,
+			name: 'Mafé Poulet',
+			price: '10 €',
+			description: 'Poulet, sauce arachide, carottes, courgettes ,céleri',
+		},
+		{
+			image: mafe,
+			name: 'Mafé Boeuf',
+			price: '12 €',
+			description: 'Boeuf, sauce arachide, carottes, courgettes, céleri',
+		},
+		{
+			image: yassa,
+			name: 'Poulet Yassa',
+			price: '10 €',
+			description:
+				'Poulet mariné, citrons, oignons, carottes, poivrons, moutarde',
+		},	
 		{
 			image: thiebPoisson,
 			name: 'Thieb Poisson',
@@ -29,26 +66,29 @@ export default function AfricaMenus() {
 			description:
 				'Riz cassé deux fois, cuit dans le jus des légumes, carottes, courgettes, aubergines et choux',
 		},
+	
 		{
-			image: yassa,
-			name: 'Poulet Yassa',
-			price: '10 €',
+			image: thiebveg,
+			name: 'Thieb Vegétarien',
+			price: '8 €',
 			description:
-				'Poulet mariné, citrons, oignons, carottes, poivrons, moutarde',
+				'Riz cassé deux fois, cuit dans le jus des légumes, carottes, courgettes, aubergines et choux',
 		},
 		{
-			image: atieke_poisson,
-			name: 'Attiéké Poisson',
-			price: '10 €',
-			description: 'Semoule de manioc, alloco et légumes sautés',
+			image: mafeveg,
+			name: 'Mafé Végétarien',
+			price: '8 €',
+			description: 'Sauce arachide, carottes, courgettes, céleri',
 		},
 		{
-			image: atieke_poulet,
-			name: 'Attiéké Poulet',
-			price: '10 €',
-			description: 'Semoule de manioc, alloco et légumes sautés',
-		},
-		
+			image: yasaveg,
+			name: 'Yassa Végetarien' , 
+			price: '8 €',
+			description:
+				'Citrons, oignons, carottes, poivrons, moutarde',
+		},	
+
+				
 	];
 
 	return (

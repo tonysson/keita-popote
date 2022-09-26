@@ -54,12 +54,7 @@ const App = () => {
 									<Routes>
 										<Route exact path='/' element={<WorldMenus />} />
 									</Routes>
-									<Routes>
-										<Route exact path='/' element={<VegetarianMenus />} />
-									</Routes>
-									<Routes>
-										<Route exact path='/' element={<Drinks />} />
-									</Routes>
+									
 								</Element>
 							</div>
 							<Element name='Contact'>

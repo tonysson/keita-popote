@@ -3,33 +3,35 @@ import accra from '../../images/accra1.jpg';
 import chili from '../../images/chili.jpg';
 import pouletAnanas from '../../images/poulet_ananas3.jpg';
 import colombo from '../../images/colombo1.jpg';
+import atieke from '../../images/attièké_poisson.jpg';
+
 import { Section } from './WorldMenuStyles';
 
 export default function WorldMenus() {
 	const data = [
 		{
-			image: accra,
-			name: 'Accras de morue',
-			price: '5 pièces 4 €',
-			description: 'Beignets frits à la morue, herbes, épices',
+			image: atieke,
+			name: 'Attieké Poisson',
+			price: '13 €',
+			description: 'Semoule de manioc, poisson , légumes sautés , Alloco ',
 		},
 		{
 			image: chili,
 			name: 'Chili Con Carne',
-			price: '9 €',
+			price: '10 €',
 			description: 'Viande hachée, haricots rouges, poivrons, maïs et épices',
 		},
 		{
 			image: colombo,
 			name: 'Colombo',
-			price: '9 €',
+			price: '10 €',
 			description:
-				'Poulet, épices, anis étoilé, courgettes, aubergines et lait de coco',
+				'Poulet, pates de colombo , courgettes, aubergines et lait de coco',
 		},
 		{
 			image: pouletAnanas,
 			name: 'Poulet Ananas',
-			price: '9 €',
+			price: '10 €',
 			description:
 				'Poulet, ananas, curry, lait de coco, poivrons et citrons',
 		},
@@ -38,7 +40,7 @@ export default function WorldMenus() {
 		<Section>
 			<div className='title'>
 				<h1>
-				Plats	<span>Du Monde</span>
+				<span> Plats</span> uniquement sur <span>Demande 5 minimum</span>
 				</h1>
 			</div>
 			<div className='products'>
