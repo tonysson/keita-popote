@@ -16,7 +16,7 @@ function About() {
 					<Hide>
 						<motion.h2 variants={titleAnim}>Keita Popote</motion.h2>
 					</Hide>
-					<motion.em variants={photoAnim}>L'exotisme dans votre assiette</motion.em>
+					<motion.em variants={photoAnim}>Traiteur africain mais pas que</motion.em>
 				</div>
 			</div>
 		</Section>
