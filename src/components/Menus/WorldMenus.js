@@ -1,5 +1,5 @@
 import React from 'react';
-import accra from '../../images/accra1.jpg';
+//import accra from '../../images/accra1.jpg';
 import chili from '../../images/chili.jpg';
 import pouletAnanas from '../../images/poulet_ananas3.jpg';
 import colombo from '../../images/colombo1.jpg';

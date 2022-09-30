@@ -15,9 +15,9 @@ import { pageAnimation } from './Animations/Animation';
 import Services from './components/Servicess/Services';
 import AfricaMenus from './components/Menus/AfricaMenus';
 import Contact from './components/Contact/Contact';
-import Drinks from './components/Drinks/Drinks';
+//import Drinks from './components/Drinks/Drinks';
 import WorldMenus from './components/Menus/WorldMenus';
-import VegetarianMenus from './components/Menus/VegetarianMenus';
+//import VegetarianMenus from './components/Menus/VegetarianMenus';
 
 const App = () => {
 	return (
