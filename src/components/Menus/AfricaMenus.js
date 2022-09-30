@@ -78,7 +78,7 @@ export default function AfricaMenus() {
 			image: mafeveg,
 			name: 'Mafé Végétarien',
 			price: '8 €',
-			description: 'Sauce arachide, carottes, courgettes, céleri',
+			description: 'Sauce arachide, carottes, courgettes, céleris',
 		},
 		{
 			image: yasaveg,
