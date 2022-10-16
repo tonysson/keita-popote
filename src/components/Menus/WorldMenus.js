@@ -24,7 +24,7 @@ export default function WorldMenus() {
 		{
 			image: colombo,
 			name: 'Colombo',
-			price: '10 €',
+			price: '11 €',
 			description:
 				'Poulet, pates de colombo , courgettes, aubergines et lait de coco',
 		},
