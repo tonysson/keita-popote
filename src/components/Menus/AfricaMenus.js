@@ -55,7 +55,7 @@ export default function AfricaMenus() {
 		{
 			image: thiebPoisson,
 			name: 'Thieb Poisson',
-			price: '12 €',
+			price: '14 €',
 			description:
 				'Riz cassé deux fois, cuit dans le jus des légumes, carottes, courgettes, aubergines et choux',
 		},
