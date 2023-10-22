@@ -48,7 +48,7 @@ export default function AfricaMenus() {
 		{
 			image: yassa,
 			name: 'Poulet Yassa',
-			price: '10 €',
+			price: '11 €',
 			description:
 				'Poulet mariné, citrons, oignons, carottes, poivrons, moutarde',
 		},	
@@ -62,7 +62,7 @@ export default function AfricaMenus() {
 		{
 			image: thiebPoulet,
 			name: 'Thieb Poulet',
-			price: '10 €',
+			price: '12 €',
 			description:
 				'Riz cassé deux fois, cuit dans le jus des légumes, carottes, courgettes, aubergines et choux',
 		},
@@ -70,7 +70,7 @@ export default function AfricaMenus() {
 		{
 			image: thiebveg,
 			name: 'Thieb Vegétarien',
-			price: '8 €',
+			price: '10 €',
 			description:
 				'Riz cassé deux fois, cuit dans le jus des légumes, carottes, courgettes, aubergines et choux',
 		},
