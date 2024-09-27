@@ -10,19 +10,19 @@ export default function VegetarianMenus() {
 		{
 			image: mafe,
 			name: 'Mafé Végétarien',
-			price: '7 €',
+			price: '8 €',
 			description: 'Sauce arachide, carottes, courgettes, céleris, coriandre',
 		},
 		{
 			image: yassa,
 			name: 'Yassa Végétarien',
-			price: '7 €',
+			price: '8 €',
 			description: 'Carottes, poivrons, citrons, oignons, moutarde',
 		},
 		{
 			image: thiebPoisson,
 			name: 'Thieb Végétarien',
-			price: '7 €',
+			price: '8 €',
 			description:
 				'Riz cassé deux fois, cuit dans le jus des légumes, carottes, courgettes, aubergines et choux',
 		},

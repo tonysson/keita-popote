@@ -10,7 +10,7 @@ export default function Services() {
 		<Section id='services'>
 			<div className='title'>
 				<h1>
-					Une cuisine <span> familiale, généreuse</span> et de{' '}
+					Une cuisine <span> familiale</span> et de{' '}
 					<span> qualité</span>
 				</h1>
 			</div>
@@ -18,22 +18,17 @@ export default function Services() {
 				<div className='service'>
 					<img src={logo} alt='service' />
 					<p>
-						Keita Popote traiteur africain propose des plats à emporter.
-						<br />
-						Tous les vendredis et samedis de 18h à 20h.
-						<br />
-						<span
-							style={{ fontWeight: 'bold'}}
-						>
-							Possibilité de commander en grand nombre pour vos événements
-							familiaux, associatifs.
-						</span>
+					Choisissez vos plats (portions pour une personne) et boissons dans la carte 
+					<br />ci-dessous
+						
+						
+						
 					</p>
 				</div>
 				<div className='service'>
 					<img src={Services2} alt='service' />
 					<p>
-						Passez votre commande au
+					Contactez-nous du Lundi au Jeudi pour passer votre commande au
 					</p>
 					<div className='phone'>
 						<PhoneIcon />
@@ -42,10 +37,10 @@ export default function Services() {
 				</div>
 				<div className='service yellow'>
 					<img src={Services1} alt='service' />
-					<p>Récuperez votre commande Vendredi et Samedi de 18h00 à 20h.</p>
+					<p>Fermeture temporaire.</p>
 				</div>
 			</div>
 		</Section>
 	);
-}
+} 
 
